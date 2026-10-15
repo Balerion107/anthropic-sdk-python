@@ -1,7 +1,6 @@
 name: Create releases
 on:
-  schedule:
-    - cron: '0 5 * * *' # every day at 5am UTC
+  workflow_dispatch:
   push:
     branches:
       - main
